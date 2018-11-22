@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container">
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <ul id="slide-out" class="sidenav sidenav-fixed info">
+    <li id="name"></li>
+    <li id="number"> </li>
+    <li id="address"></li>
+    <li id="bike_number"></li>
+    <li id="bike_available"></li>
+    <li id="place_available"></li>
+    <li><button class="btn waves-effect waves-light" type="" name="" id="reserv">Réserver
+        <i class="material-icons right">directions_bike</i>
+      </button></li>
+  </ul>
+
+  <div class="container">
+    <div class="section" id="map">
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="">
+
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.29.1/dist/sweetalert2.all.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/markerclusterer.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLa5-VqaUHDErODU00fUHo_rkI-6n4m7U"></script>
+  <script src="js/init.js"></script>
+  </body>
+</html>
